@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>BestSellOnline</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <script defer src="/node_modules/swup/dist/swup.min.js"></script>  
+    <script defer src="/scripts/page-transition.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-left-section">
+        <a href="/src/app/app.component.html">
+        <img class="corner-logo" src="../assets/images/logo2.png" alt="logo">
+        </a>
+      </div>
+      <div class="header-right-section">
+      </div>
+    </header>
+    <div class="transition-fade" id="swup">
+      <router-outlet>
+      </router-outlet>
+        <div class="button-wrapper">
+          <button (click)="disable()" (click)="goToPage('CRUD')" id="crud-button" class="crud-button">
+            Try our organizer by yourself FOR FREE
+          </button>
+        </div>
+    </div>
+</body>
+</html>

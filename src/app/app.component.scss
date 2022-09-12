@@ -1,0 +1,22 @@
+/*Main Styles*/
+html{
+    background-color: #212121;
+}
+body{
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', Arial;
+    overflow: hidden;
+}
+
+.transition-fade{
+    padding: 8%;
+    padding-top: 10%;
+}
+@media (max-width: 1390px){
+    .transition-fade{
+        padding: 3%;
+    }
+}
+
+

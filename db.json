@@ -1,0 +1,68 @@
+{
+  "campaignList": [
+    {
+      "campaignName": "Big Brothers Company",
+      "keywords": "` `Mini Drone` `Mini Brands` `Minion Toys`",
+      "bidAmount": 55,
+      "campaignFund": 250000,
+      "status": "Off",
+      "town": "Poznań",
+      "radius": 482,
+      "keywordscont": "Minion Toys",
+      "id": 1
+    },
+    {
+      "campaignName": "Small Brothers Company",
+      "keywords": "Paw Patroller",
+      "bidAmount": 12,
+      "campaignFund": 250000,
+      "status": "On",
+      "town": "Gdańsk",
+      "radius": 608,
+      "id": 14
+    },
+    {
+      "campaignName": "MayCis S.P.O",
+      "keywords": "` `Paw Patroller` `Fidget Spinner` `Fidget Cube`",
+      "bidAmount": 50,
+      "campaignFund": 750000,
+      "status": "Off",
+      "town": "Kraków",
+      "radius": 16,
+      "keywordscont": "Fidget Cube",
+      "id": 15
+    },
+    {
+      "campaignName": "Lego Company",
+      "keywords": "` `Lego Star Wars` `Lego Harry Potter` `Lego Pokemon`",
+      "bidAmount": 80,
+      "campaignFund": 9300000000,
+      "status": "On",
+      "town": "Gdynia",
+      "radius": 670,
+      "keywordscont": "Lego Pokemon",
+      "id": 18
+    },
+    {
+      "campaignName": "Hasbro - Hassenfeld Brothers",
+      "keywords": "` `Nerf Rival` `Transformers Toys` `Power Ranger Toys`",
+      "bidAmount": 15,
+      "campaignFund": 5260000,
+      "status": "On",
+      "town": "Warszawa",
+      "radius": 297,
+      "keywordscont": "Power Ranger Toys",
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

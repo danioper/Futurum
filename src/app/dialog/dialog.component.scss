@@ -1,0 +1,28 @@
+/*Dialog styles*/
+mat-form-field{
+    width: 100%;
+}
+/*Status radio Buttons*/
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    margin-top: 0;
+    align-items: flex-start;
+}
+
+.radio-button{
+    margin-bottom: 5px;
+}
+
+.save-button{
+    margin-left: 5px;
+}
+
+/*Responsive Design Section*/
+@media (max-width: 1390px){
+    .form-cont{
+      min-width: 360px;
+      overflow: hidden;
+    }
+}
